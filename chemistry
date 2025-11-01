@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+table{
+    text-align: center;
+    
+}
+    th{
+        background-color: rgb(185, 183, 183);
+    }
+</style>
+<body>
+    <p><h2>Task 2: Do the Task 1 using iframe</h2></p><br>
+    <p><h2>Task 3: <b>chemistry formulas</b><box></box></h2></p><br>
+    <center>
+    <table border="1" cellpadding="10">
+        <caption><h1><b>Common Bases</b></h1></caption>
+        <thead>
+            <th>Name</th>
+            <th>Formula</th>
+            <th>Where is it found?</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sodium hydroxide(caustic soda)</td>
+                <td>NaOH</td>
+                <td>Oven cleaners,in the lab</td>
+            </tr>
+            <tr>
+        <td>calcium hydroxide</td>
+        <td>Ca(OH)<sub>2</sub></td>
+        <td>Soil lime,lime water</td>
+        </tr>
+        <tr>
+        <td>Magnesium oxide(magnesia)</td>
+        <td>MgO</td>
+        <td>Indigestion tablets</td>
+        </tr>
+        <tr>
+        <td>Calcium carbonate</td>
+        <td>CaCO<sub>3</sub></td>
+        <td>Limestone, soil lime</td>
+        </tr>
+        <tr>
+        <td>Sodium hydrogencarbonate(bicarbonate)</td>
+        <td>NaHCO<sub>3</sub></td>
+        <td>Baking powder</td>
+        </tr>
+</center>
+        </tbody>
+    </table>
+    
+</body>
+</html>
