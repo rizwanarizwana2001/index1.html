@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1{
+        text-align: center;
+    }
+    h2{
+        background-color: rgb(145, 127, 127);
+    }
+    
+</style>
+<body>
+    <h1>Rizwana Parveen</h1>
+    <p>email id:rizwana@gmail.com</p>
+    <t>contact:12345----</t>
+    
+    
+    
+   
+    <h2><b>CAREER OBJECTIVE</b></h2>
+    <p>&nbsp;Aim to be placed in challenging organization that gives me scope to update my knowledge &skills in occordance with the latest trends andbe a part of that dynamically works towards Growth amd organization </p>
+<h2><b>EDUCATIONAL PROFILE</b></h2>
+
+    <table border="1">
+    <thead>
+        <th>Course</th>
+        <th>Board/University</th>
+        <th>Educational Institution</th>
+        <th>Year of pass</th>
+        <th>% of Marks</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td>MCA</td>
+            <td>Andra university</td>
+            <td>raju institute</td>
+            <td>2023</td>
+            <td>8.12(CGPA)</td>
+        </tr>
+        <tr>
+            <td>DEGREE</td>
+            <td>Andra university</td>
+            <td>M.S.S.Wakfboard college</td>
+            <td>2021</td>
+            <td>71%</td>
+        </tr>
+        <tr>
+            <td>SSC</td>
+            <td>Board of Secondary Education</td>
+           <td>V.H.N.hr.sec.school</td>
+           <td>2018</td>
+           <td>83%</td> 
+        </tr>
+
+    </tbody>
+    </table>
+    <h2><b>TECHNICAL SKILLS</b></h2>
+    <!--unordered list-->
+    <ul type="bulletted list">
+        <li>Operating System &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;Windows 98,xp,7,8</li>
+        <li>Programming Languages&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;C,C++,J2SE,J2EE</li>
+        <li>Frameworks&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;Struts,Spring,Hibernate</li>
+        <li>Database&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;Oracle,My Sql</li>
+        <li>IDE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;Eclipse,NetBeans</li>
+    </ul>
+     <h2><b>PROJECT EXPERIENCE</b></h2>
+    <ul>
+        <li><p>Done main-project on <b>"OnlineGroceryStore"</b>using Front end java (structs framework)and Backend Oracle</p></li>
+        <li><p>Done internship in (zoho)</p></li>
+        <p><b>Project Title&nbsp;&nbsp;&nbsp;:&nbsp;Xen server management on Cloud computing</b></p>
+        <p>Team Size&nbsp;&nbsp;&nbsp;:&nbsp;13 members</p>
+        <p>position&nbsp;&nbsp;&nbsp;:&nbsp;Team Leader</p>
+    </ul>
+</body>
+</html>
