@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <table border="1">
+    <tr>
+    <form action="">
+        <input type="password"><br><br>
+<label>Reading;<input type="checkbox" name="hobbies"></label><br><br>
+<label>Writing;<input type="checkbox" name="hobbies"></label><br><br>
+<label>Tv;<input type="checkbox" name="hobbies"></label><br><br><br>
+<label>Reading;<input type="radio" name="hobbies"></label><br><br>
+<label>Writing;<input type="radio" name="hobbies"></label><br><br>
+<label>Tv;<input type="radio" name="hobbies"></label><br><br>
+    </form>
+    <form action="">
+        <input type="time"><br><br>
+        <input type="submit" name="" id="" value="submition"><br><br>
+        <input type="reset" name="" id="" value="reset form"><br><br> 
+        <input type="file" accept="img1.jpg"><br><br>
+   </tr>     
+</form>
+</table>   
+</body>
+</html>
