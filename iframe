@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<i>, initial-scale=1.0">
+    <title>Iframe example</iframe></title>
+</head>
+<body>
+    <h2>html Iframe example</h2>
+    <iframe src="https://images.ctfassets.net/x7j9qwvpvr5s/11bzgyiDq6xcWpqrm4IQpQ/296147d5eb58720bc26addc4902ecd75/2025-09-18_Panigale-V4-R-MY26-Model-Blocks-630x390.png"
+    width="600" height="400" title="wikipedia page" style="border: 2px black;"></iframe>
+    
+
+</body>
+</html>
