@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BlueLeaf UI</title>
+  <style>
+    * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", Arial, sans-serif;
+}
+
+body {
+  background-color: #f8fbff;
+  color: #1f2937;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: white;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.logo {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #2563eb;
+}
+
+.logo span {
+  color: #1e40af;
+}
+
+.navbar nav a {
+  margin-left: 1.5rem;
+  text-decoration: none;
+  color: #374151;
+  font-weight: 500;
+}
+
+.get-started {
+  border: 1px solid #2563eb;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  color: #2563eb;
+  transition: 0.2s;
+}
+
+.get-started:hover {
+  background: #2563eb;
+  color: white;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 3rem 2rem;
+  background: #eff6ff;
+  border-radius: 12px;
+  margin: 2rem;
+}
+
+.hero-content {
+  width: 60%;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  color: #4b5563;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+/* Buttons */
+.buttons {
+  margin-bottom: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.75rem 1.25rem;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.primary {
+  background: #2563eb;
+  color: white;
+  margin-right: 0.5rem;
+}
+
+.secondary {
+  background: white;
+  border: 1px solid #d1d5db;
+  color: #1f2937;
+}
+
+.primary:hover {
+  background: #1e40af;
+}
+
+.secondary:hover {
+  background: #f3f4f6;
+}
+
+.stats {
+  color: #6b7280;
+  margin-top: 1rem;
+}
+
+/* Info Card */
+.card {
+  background: white;
+  padding: 2rem;
+  width: 35%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.card h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.card p {
+  color: #4b5563;
+  margin-bottom: 1rem;
+}
+
+.tip {
+  font-size: 0.95rem;
+  color: #374151;
+}
+
+.download {
+  background: #2563eb;
+  color: white;
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+
+.download:hover {
+  background: #1e40af;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .hero {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-content,
+  .card {
+    width: 100%;
+  }
+
+  .card {
+    margin-top: 2rem;
+  }
+}
+  </style>
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">BlueLeaf <span>UI</span></div>
+    <nav>
+      <a href="#">Docs</a>
+      <a href="#">Components</a>
+      <a href="#">Pricing</a>
+      <a href="#" class="get-started">Get Started</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Beautiful components without modern layout modules</h1>
+      <p>
+        A demonstration UI made without CSS Grid, Flexbox, animation, or CSS positioning — relies on floats, inline-block and classic responsive techniques.
+      </p>
+
+      <div class="buttons">
+        <a href="#" class="btn primary">Start a Project</a>
+        <a href="#" class="btn secondary">Explore Samples</a>
+      </div>
+
+      <p class="stats">
+        <strong>1,200+</strong> users • <strong>400+</strong> templates • <strong>100%</strong> responsive examples
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Getting started</h3>
+      <p>Copy this HTML to begin customizing — all essential components in one page.</p>
+      <p class="tip"><strong>Tip:</strong> Use media queries to adapt floats on smaller screens.</p>
+      <a href="#" class="btn download">Download</a>
+    </div>
+  </section>
+</body>
+</html>
